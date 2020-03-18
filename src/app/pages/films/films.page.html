@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Films</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-button expand="full" (click)="openDetails()">Go to Details with function</ion-button>
+  <ion-button expand="full" routerLink="/tabs/films/42" routerDirection="forward">Go to Details with link</ion-button>
+  <ion-button expand="full" (click)="goToPlanets()">Switch to Planets</ion-button>
+</ion-content>
